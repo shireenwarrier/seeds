@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:weightSum="1"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout">
+
+        <ImageButton
+            android:src="@drawable/java4"
+            android:cropToPadding="false"
+            android:layout_centerHorizontal="false"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_height="0dp"
+            android:text="Java"
+            android:background="#69D5B1"
+            android:textColor="#FFFFFF"
+            android:id="@+id/javaButton"
+            android:onClick="pressLearnButton"/>
+
+        <ImageButton
+            android:src="@drawable/python2"
+            android:cropToPadding="false"
+            android:layout_centerHorizontal="false"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_weight="0.5"
+            android:layout_height="0dp"
+            android:text="Python"
+            android:background="#A1E455"
+            android:textColor="#FFFFFF"
+            android:id="@+id/pythonButton"
+            android:onClick="pressLearnButton"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

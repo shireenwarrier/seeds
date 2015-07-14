@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".ConnectActivity"
+    >
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/videoLayout">
+
+        <ImageButton
+            android:src="@drawable/connectcal5"
+
+            android:text="Calendar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button3"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#FFFFFF"
+            android:id="@+id/calendar"
+            android:onClick="pressCalendarButton"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/calendar"
+            android:layout_toEndOf="@+id/calendar" />
+
+
+    </LinearLayout>
+
+
+
+    <ImageButton
+        android:src="@drawable/connectmentor2"
+
+        android:text="Mentoring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button2"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFFFF"
+        android:id="@+id/mentoring"
+        android:onClick="pressMentorButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:src="@drawable/connectlocator3"
+        android:text="Locator"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFFFF"
+        android:id="@+id/locator"
+        android:onClick="pressLocatorButton"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/mentoring"
+        android:layout_alignEnd="@+id/mentoring" />
+
+</RelativeLayout>
+<!-- From: file:/Users/loaner/Desktop/seeds2%204/seeds/app/src/main/res/layout/fragment_connect.xml -->
