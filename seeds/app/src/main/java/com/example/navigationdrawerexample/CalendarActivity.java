@@ -20,6 +20,7 @@ public class CalendarActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setTitle("Calendar");
         setContentView(R.layout.activity_calendar);
         if(MainActivity.MESSAGE.equals("mentoring")){setContentView(R.layout.activity_mentor);}
         else if(MainActivity.MESSAGE.equals("calendar")){setContentView(R.layout.activity_calendar);}

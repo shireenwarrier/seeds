@@ -20,6 +20,7 @@ public class MentorActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mentor);
+        getActionBar().setTitle("Mentor Program");
         if(MainActivity.MESSAGE.equals("mentoring")){setContentView(R.layout.activity_mentor);}
         else if(MainActivity.MESSAGE.equals("calendar")){setContentView(R.layout.activity_calendar);}
         else if(MainActivity.MESSAGE.equals("locator")){setContentView(R.layout.activity_locator);}

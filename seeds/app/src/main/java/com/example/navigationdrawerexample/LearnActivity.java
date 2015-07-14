@@ -17,9 +17,13 @@ public class LearnActivity extends Activity {
     private ArrayList<Group> ExpListItems;
     private ExpandableListView ExpandList;
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Intent intent = getIntent();
+        getActionBar().setTitle("Learn");
         super.onCreate(savedInstanceState);
         if(HomeActivity.MESSAGE.equals("java")){setContentView(R.layout.java_layout);}
         else if(HomeActivity.MESSAGE.equals("python")){setContentView(R.layout.python_layout);}
@@ -92,4 +96,6 @@ public class LearnActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }
