@@ -20,36 +20,39 @@
 
 
     <ImageButton
-        android:src="@drawable/connectb"
+        android:src="@drawable/newconnectbutton"
         android:text="Connect"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/round_button3"
         android:gravity="center_vertical|center_horizontal"
         android:textColor="#FFFFFF"
         android:id="@+id/connect"
         android:onClick= "pressHomeButton"
-        android:layout_marginLeft="56dp"
-        android:layout_marginStart="56dp"
-        android:layout_toRightOf="@+id/videoLayout"
-        android:layout_toEndOf="@+id/videoLayout" />
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/play"
+        android:layout_alignEnd="@+id/play"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginTop="40dp" />
 
     <ImageButton
-        android:src="@drawable/learnbutton"
+        android:src="@drawable/newlearnbutton"
         android:text="Learn"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/round_button2"
         android:gravity="center_vertical|center_horizontal"
         android:textColor="#FFFFFF"
         android:id="@+id/learn"
         android:onClick= "pressHomeButton"
+        android:paddingLeft="20dp"
         android:layout_below="@+id/connect"
         android:layout_toRightOf="@+id/videoLayout"
         android:layout_toEndOf="@+id/videoLayout" />
 
     <ImageButton
-        android:src="@drawable/playb"
+        android:src="@drawable/newplaybutton"
         android:text="Play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -57,8 +60,9 @@
         android:gravity="center_vertical|center_horizontal"
         android:textColor="#FFFFFF"
         android:id="@+id/play"
+
         android:onClick= "pressHomeButton"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/connect"
         android:layout_toRightOf="@+id/learn"
         android:layout_toEndOf="@+id/learn" />
 </RelativeLayout>
