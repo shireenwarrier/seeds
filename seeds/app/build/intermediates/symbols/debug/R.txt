@@ -110,8 +110,9 @@ int menu menu_locator 0x7f0a0006
 int menu menu_mentor 0x7f0a0007
 int mipmap avatar 0x7f030000
 int mipmap ic_l 0x7f030001
-int mipmap splash 0x7f030002
-int mipmap splash3 0x7f030003
+int mipmap ic_launcher 0x7f030002
+int mipmap splash 0x7f030003
+int mipmap splash3 0x7f030004
 int string action_settings 0x7f090000
 int string app_name 0x7f090001
 int string drawer_close 0x7f090002
