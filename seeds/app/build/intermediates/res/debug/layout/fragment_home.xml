@@ -32,7 +32,7 @@
             android:onClick= "pressHomeButton"
             android:paddingLeft="15dp"
             android:paddingBottom="15dp"
-            android:paddingTop="15dp"
+            android:paddingTop="35dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
@@ -50,7 +50,7 @@
         android:id="@+id/connect"
         android:paddingRight="15dp"
         android:paddingBottom="15dp"
-        android:paddingTop="15dp"
+        android:paddingTop="35dp"
         android:onClick= "pressHomeButton"
         android:layout_below="@+id/videoLayout"
         android:layout_alignParentRight="true"
@@ -66,7 +66,7 @@
         android:textColor="#FFFFFF"
         android:id="@+id/learn"
         android:paddingBottom="15dp"
-        android:paddingTop="15dp"
+        android:paddingTop="35dp"
         android:onClick= "pressHomeButton"
         android:layout_below="@+id/videoLayout"
         android:layout_centerHorizontal="true" />

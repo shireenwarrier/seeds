@@ -17,30 +17,39 @@ public class LearnActivity extends Activity {
     private ArrayList<Group> ExpListItems;
     private ExpandableListView ExpandList;
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Intent intent = getIntent();
+        getActionBar().setTitle("Learn");
         super.onCreate(savedInstanceState);
-        if(HomeActivity.MESSAGE.equals("java")){setContentView(R.layout.java_layout);}
-        else if(HomeActivity.MESSAGE.equals("python")){setContentView(R.layout.python_layout);}
-        else if(MainActivity.MESSAGE.equals("java")){setContentView(R.layout.java_layout);}
-        else if(MainActivity.MESSAGE.equals("python")){setContentView(R.layout.python_layout);}
+        if(HomeActivity.MESSAGE.equals("java")||(MainActivity.MESSAGE.equals("java"))){
+            setContentView(R.layout.java_layout);
+            ExpandList = (ExpandableListView) findViewById(R.id.exp_list);
+            ExpListItems = setJavaGroups();
+        }
+        else if(HomeActivity.MESSAGE.equals("python")||(MainActivity.MESSAGE.equals("python"))){
+            setContentView(R.layout.python_layout);
+            ExpandList = (ExpandableListView) findViewById(R.id.exp_list);
+            ExpListItems = setPythonGroups();
+        }
 
-        ExpandList = (ExpandableListView) findViewById(R.id.exp_list);
-        ExpListItems = SetStandardGroups();
         ExpAdapter = new ExpandListAdapter(LearnActivity.this, ExpListItems);
         ExpandList.setAdapter(ExpAdapter);
 
     }
 
 
-    public ArrayList<Group> SetStandardGroups() {
+    public ArrayList<Group> setJavaGroups() {
 
-        String group_names[] = { "Hello World!", "Ints and Doubles", "Math Operations", "Strings",
-                "Variables"};
 
-        int Images[] = {R.drawable.stringsjava5,
-                R.drawable.stringsjava5, R.drawable.stringsjava5, R.drawable.stringsjava5, R.drawable.stringsjava5,};
+            String group_names[] = {"Hello World!", "Ints and Doubles", "Math Operations", "Strings",
+                    "Variables", "Chars"};
+
+            int Images[] = {R.drawable.helloworldjava,
+                    R.drawable.intsanddoublesjava, R.drawable.mathoperationsjava1, R.drawable.mathoperationsjava2, R.drawable.stringsjava5, R.drawable.variables, R.drawable.charsjava};
 
         ArrayList<Group> list = new ArrayList<Group>();
 
@@ -55,18 +64,80 @@ public class LearnActivity extends Activity {
 
             ch_list = new ArrayList<Child>();
 
+            if (group_name.equals("Ints and Doubles")) {
+                size = 2;
+                for (; j < size; j++) {
+                    Child ch = new Child();
+                    ch.setImage(Images[j]);
+                    ch_list.add(ch);
+                }
+                gru.setItems(ch_list);
+                list.add(gru);
 
-            for (; j < size; j++) {
-                Child ch = new Child();
-                ch.setImage(Images[j]);
-                ch_list.add(ch);
+                size = size + 2;
             }
-            gru.setItems(ch_list);
-            list.add(gru);
+            else {
 
-            size = size + 1;
+                for (; j < size; j++) {
+                    Child ch = new Child();
+                    ch.setImage(Images[j]);
+                    ch_list.add(ch);
+                }
+                gru.setItems(ch_list);
+                list.add(gru);
+
+                size = size + 1;
+            }
         }
 
+        return list;
+    }
+
+    public ArrayList<Group> setPythonGroups() {
+
+        String group_names[] = {"Hello World!", "Ints and Doubles", "Math Operations", "Strings",
+                "Variables", "Chars"};
+        int Images[] = {R.drawable.helloworldpython,
+                R.drawable.intsanddoublespython, R.drawable.mathoperationspython1, R.drawable.mathoperationspython2, R.drawable.stringspython5, R.drawable.variables, R.drawable.charspython};
+
+        ArrayList<Group> list = new ArrayList<Group>();
+
+        ArrayList<Child> ch_list;
+
+        int size = 1;
+        int j = 0;
+
+        for (String group_name : group_names) {
+            Group gru = new Group();
+            gru.setName(group_name);
+
+            ch_list = new ArrayList<Child>();
+
+            if (group_name.equals("Ints and Doubles")) {
+                size = 2;
+                for (; j < size; j++) {
+                    Child ch = new Child();
+                    ch.setImage(Images[j]);
+                    ch_list.add(ch);
+                }
+                gru.setItems(ch_list);
+                list.add(gru);
+
+                size = size + 2;
+            }
+            else {
+
+                for (; j < size; j++) {
+                    Child ch = new Child();
+                    ch.setImage(Images[j]);
+                    ch_list.add(ch);
+                }
+                gru.setItems(ch_list);
+                list.add(gru);
+
+                size = size + 1;
+            }
+        }
         return list;
     }
 
@@ -92,4 +163,6 @@ public class LearnActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }

@@ -13,6 +13,7 @@ public class ConnectActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getActionBar().setTitle("Connect");
         setContentView(R.layout.activity_connect);
 
     }
