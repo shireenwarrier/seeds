@@ -16,17 +16,16 @@
         android:layout_height="match_parent"
         android:id="@+id/webView"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_above="@id/imageButton10"/>
+        android:layout_alignParentStart="true"/>
 
     <ImageButton
+        android:src="@drawable/addevent2"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:id="@+id/imageButton10"
+        android:id="@+id/imageButton100"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:src="@drawable/addevent2"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 

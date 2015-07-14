@@ -6,29 +6,8 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".ConnectActivity"
     >
 
-    <LinearLayout
-        android:id="@+id/buttonLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/videoLayout">
-
-        <ImageButton
-            android:src="@drawable/connectcal5"
-
-            android:text="Calendar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/round_button3"
-            android:gravity="center_vertical|center_horizontal"
-            android:textColor="#FFFFFF"
-            android:id="@+id/calendar"
-            android:onClick="pressCalendarButton"
-            android:layout_alignParentBottom="true"
-            android:layout_toRightOf="@+id/calendar"
-            android:layout_toEndOf="@+id/calendar" />
 
 
-    </LinearLayout>
 
 
 
@@ -43,23 +22,80 @@
         android:textColor="#FFFFFF"
         android:id="@+id/mentoring"
         android:onClick="pressMentorButton"
+        android:paddingBottom="36dp"
+        android:paddingLeft="20dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:src="@drawable/mentortext1"
+        android:paddingBottom="62dp"
+        android:paddingRight="14dp"
+        android:layout_alignBottom="@+id/mentoring"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
     <ImageButton
         android:src="@drawable/connectlocator3"
         android:text="Locator"
-        android:layout_width="170dp"
-        android:layout_height="170dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="@drawable/round_button"
         android:gravity="center_vertical|center_horizontal"
         android:textColor="#FFFFFF"
         android:id="@+id/locator"
         android:onClick="pressLocatorButton"
+        android:paddingLeft="20dp"
+
         android:layout_centerVertical="true"
         android:layout_alignRight="@+id/mentoring"
         android:layout_alignEnd="@+id/mentoring" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:src="@drawable/mapstext2"
+        android:paddingBottom="30dp"
+        android:paddingRight="12dp"
+        android:layout_alignBottom="@+id/locator"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:src="@drawable/connectcal5"
+
+        android:text="Calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button3"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFFFF"
+        android:id="@+id/calendar"
+        android:onClick="pressCalendarButton"
+        android:paddingTop="36dp"
+        android:paddingLeft="20dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/caltext2"
+        android:paddingBottom="30dp"
+        android:paddingRight="10dp"
+        android:layout_alignBottom="@+id/calendar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
 </RelativeLayout>
+
 <!-- From: file:/Users/sonia9uppal/seeds2-5/seeds/app/src/main/res/layout/fragment_connect.xml -->
