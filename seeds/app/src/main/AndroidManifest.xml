@@ -87,6 +87,12 @@
             android:name=".AddEventActivity"
             android:label="@string/title_activity_add_event" >
         </activity>
+        <activity
+            android:name=".VideoActivity"
+            android:label="@string/title_activity_video"
+            android:hardwareAccelerated="true"
+            android:configChanges="orientation|screenSize">
+        </activity>
     </application>
 
 </manifest>

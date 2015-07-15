@@ -210,6 +210,32 @@ public class MainActivity extends Activity {
 
 
     }
+
+    //takes you to the videoActivity page via HomeFrag and opens YOUTUBE for playing video
+    public void pressVideoButton(View view) {
+        Intent intent = new Intent(this, VideoActivity.class);
+        intent.putExtra("url", "https://youtu.be/zndy7aCQyUo");
+        switch (view.getId()) {
+            case R.id.play:
+                MESSAGE = "play";
+                break;
+            case R.id.learn:
+                MESSAGE = "learn";
+                break;
+            case R.id.connect:
+                MESSAGE = "connect";
+                break;
+            case R.id.buttonVideo:
+                MESSAGE = "video";
+                break;
+
+        }
+
+        startActivity(intent);
+
+
+    }
+
     public void pressMentorButton(View view) {
         Intent mentoring = new Intent(this, MentorActivity.class);
         mentoring.putExtra("url","https://docs.google.com/forms/d/1IjfXRGAFEoskViuCaDeX8AbPVYti_JMhhblE7k2UcT4/viewform?c=0&w=1");

@@ -15,9 +15,10 @@ public class HomeActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         Intent intent = getIntent();
         super.onCreate(savedInstanceState);
-        if(MainActivity.MESSAGE.equals("play")){setContentView(R.layout.activity_play);}
-        else if(MainActivity.MESSAGE.equals("learn")){setContentView(R.layout.activity_learn);}
-        else if(MainActivity.MESSAGE.equals("connect")){setContentView(R.layout.activity_connect);}
+        if(MainActivity.MESSAGE.equals("play")){setContentView(R.layout.activity_play); getActionBar().setTitle("Play");}
+        else if(MainActivity.MESSAGE.equals("learn")){setContentView(R.layout.activity_learn);getActionBar().setTitle("Learn");}
+        else if(MainActivity.MESSAGE.equals("connect")){setContentView(R.layout.activity_connect);getActionBar().setTitle("Connect");}
+        else if(MainActivity.MESSAGE.equals("video")){setContentView(R.layout.activity_video); getActionBar().setTitle("Video");}
     }
 
     @Override
