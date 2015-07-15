@@ -149,3 +149,9 @@ ADDED from AndroidManifest.xml:82:9
 		ADDED from AndroidManifest.xml:84:13
 	android:name
 		ADDED from AndroidManifest.xml:83:13
+activity#com.example.navigationdrawerexample.AddEventActivity
+ADDED from AndroidManifest.xml:86:9
+	android:label
+		ADDED from AndroidManifest.xml:88:13
+	android:name
+		ADDED from AndroidManifest.xml:87:13

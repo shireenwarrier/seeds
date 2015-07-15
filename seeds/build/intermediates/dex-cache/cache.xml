@@ -2,25 +2,25 @@
 <items version="2" >
 
     <item
-        jar="/Users/loaner/Desktop/seeds2-5/seeds/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/loaner/Desktop/seeds2-5/seeds/app/build/intermediates/pre-dexed/debug/classes-46ef9ba0058494e1b00539ae215d086c601676d0.jar" />
-    </item>
-    <item
-        jar="/Users/loaner/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jar="/Users/sonia9uppal/Desktop/Random/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/loaner/Desktop/seeds2-5/seeds/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-ad9b5eb58756a843fa6114c7c2500fd0d59ad21a.jar" />
+        <dex dex="/Users/sonia9uppal/seeds2-5/seeds/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-dc02db8093551d78ea2eaea5d5bc27ea7a208bd2.jar" />
     </item>
     <item
-        jar="/Users/loaner/Desktop/seeds2-5/seeds/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jar="/Users/sonia9uppal/seeds2-5/seeds/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/sonia9uppal/seeds2-5/seeds/app/build/intermediates/pre-dexed/debug/classes-0caba0a0cc5dda4c1b13b21158b0d43988d7833e.jar" />
+    </item>
+    <item
+        jar="/Users/sonia9uppal/seeds2-5/seeds/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/loaner/Desktop/seeds2-5/seeds/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-97683403ff171c2c43bd3c771d0d2ce3062461ce.jar" />
+        <dex dex="/Users/sonia9uppal/seeds2-5/seeds/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-1fcd3c87b3d7fdb4a611640d53f3a4309242b49f.jar" />
     </item>
 
 </items>

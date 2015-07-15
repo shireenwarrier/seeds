@@ -26,5 +26,6 @@
     <string name="title_activity_continued_connect">ContinuedConnect</string>
     <string name="title_activity_locator">LocatorActivity</string>
     <string name="title_activity_learn">LearnActivity</string>
+    <string name="title_activity_add_event">AddEventActivity</string>
 
 </resources>

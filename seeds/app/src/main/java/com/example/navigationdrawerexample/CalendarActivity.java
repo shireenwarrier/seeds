@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -16,6 +17,7 @@ import java.net.URI;
 
 public class CalendarActivity extends Activity {
     WebView myWebView;
+    public static String MESSAGE = "message";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -88,5 +90,18 @@ public class CalendarActivity extends Activity {
             startActivity(i);
             return true;
         }
+    }
+
+    //to move to webview with the google form for adding an event
+    public void addEvent(View view) {
+        Intent event = new Intent(this, AddEventActivity.class);
+        event.putExtra("url","http://goo.gl/forms/4QecbLtilN");
+        switch (view.getId()) {
+            case R.id.imageButton100:
+                MESSAGE = "addevent";
+                break;
+
+        }
+        startActivity(event);
     }
 }

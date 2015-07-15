@@ -83,6 +83,10 @@
             android:name="com.example.navigationdrawerexample.LearnActivity"
             android:label="@string/title_activity_learn" >
         </activity>
+        <activity
+            android:name="com.example.navigationdrawerexample.AddEventActivity"
+            android:label="@string/title_activity_add_event" >
+        </activity>
     </application>
 
 </manifest>
