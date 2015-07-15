@@ -28,5 +28,6 @@
     <string name="title_activity_learn">LearnActivity</string>
     <string name="title_activity_add_event">AddEventActivity</string>
     <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_string_video">StringVideoActivity</string>
 
 </resources>

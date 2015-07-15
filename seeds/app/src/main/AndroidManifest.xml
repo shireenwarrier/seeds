@@ -89,9 +89,9 @@
         </activity>
         <activity
             android:name=".VideoActivity"
-            android:label="@string/title_activity_video"
+            android:configChanges="orientation|screenSize"
             android:hardwareAccelerated="true"
-            android:configChanges="orientation|screenSize">
+            android:label="@string/title_activity_video" >
         </activity>
     </application>
 
