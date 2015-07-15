@@ -9,11 +9,15 @@
         android:layout_gravity="left"
         android:layout_height="match_parent"
         >
-        <VideoView
+
+        <ImageButton
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/videoView"
-            android:layout_weight="1"/>
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton7"
+            android:src="@drawable/vidview4"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
 
     </RelativeLayout>

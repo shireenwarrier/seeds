@@ -147,7 +147,8 @@ int string title_activity_home 0x7f09000a
 int string title_activity_learn 0x7f09000b
 int string title_activity_locator 0x7f09000c
 int string title_activity_mentor 0x7f09000d
-int string title_activity_video 0x7f09000e
+int string title_activity_string_video 0x7f09000e
+int string title_activity_video 0x7f09000f
 int style AppBaseTheme 0x7f060000
 int style AppTheme 0x7f060001
 int style aBStyle 0x7f060002

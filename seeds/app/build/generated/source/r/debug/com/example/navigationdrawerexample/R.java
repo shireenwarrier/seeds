@@ -176,7 +176,8 @@ public final class R {
         public static final int title_activity_learn=0x7f09000b;
         public static final int title_activity_locator=0x7f09000c;
         public static final int title_activity_mentor=0x7f09000d;
-        public static final int title_activity_video=0x7f09000e;
+        public static final int title_activity_string_video=0x7f09000e;
+        public static final int title_activity_video=0x7f09000f;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 

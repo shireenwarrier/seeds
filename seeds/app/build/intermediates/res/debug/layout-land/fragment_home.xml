@@ -65,4 +65,4 @@
         android:layout_below="@+id/connect"
         android:layout_toRightOf="@+id/learn"
         android:layout_toEndOf="@+id/learn" />
-</RelativeLayout><!-- From: file:/Users/loaner/Desktop/seeds2-5/seeds/app/src/main/res/layout-land/fragment_home.xml -->
+</RelativeLayout><!-- From: file:/Users/sonia9uppal/seeds2-5/seeds/app/src/main/res/layout-land/fragment_home.xml -->
