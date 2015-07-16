@@ -74,14 +74,15 @@ public final class R {
         public static final int stringsjava5=0x7f020032;
         public static final int stringspython5=0x7f020033;
         public static final int variables=0x7f020034;
+        public static final int vidview4=0x7f020035;
     }
     public static final class id {
         public static final int ScrollView01=0x7f0b0014;
         public static final int action_settings=0x7f0b002b;
-        public static final int buttonLayout=0x7f0b0021;
-        public static final int buttonVideo=0x7f0b0025;
+        public static final int buttonLayout=0x7f0b0020;
+        public static final int buttonVideo=0x7f0b0024;
         public static final int calendar=0x7f0b0009;
-        public static final int connect=0x7f0b0023;
+        public static final int connect=0x7f0b0022;
         public static final int content_frame=0x7f0b0010;
         public static final int drawer_layout=0x7f0b000f;
         public static final int exp_list=0x7f0b0027;
@@ -94,20 +95,21 @@ public final class R {
         public static final int imageButton4=0x7f0b0018;
         public static final int imageButton5=0x7f0b0019;
         public static final int imageButton6=0x7f0b001c;
+        public static final int imageButton7=0x7f0b0025;
         public static final int imageView=0x7f0b000a;
         public static final int imageView1=0x7f0b0008;
         public static final int imageView2=0x7f0b0006;
         public static final int imageView3=0x7f0b000e;
         public static final int imageViewIcon=0x7f0b0028;
         public static final int javaButton=0x7f0b000c;
-        public static final int learn=0x7f0b0024;
+        public static final int learn=0x7f0b0023;
         public static final int left_drawer=0x7f0b0011;
         public static final int linearLayout=0x7f0b000b;
         public static final int linearLayout2=0x7f0b0017;
         public static final int linearLayout3=0x7f0b001a;
         public static final int locator=0x7f0b0007;
         public static final int mentoring=0x7f0b0005;
-        public static final int play=0x7f0b0022;
+        public static final int play=0x7f0b0021;
         public static final int progressBar1=0x7f0b002a;
         public static final int pythonButton=0x7f0b000d;
         public static final int textView=0x7f0b0002;
@@ -115,7 +117,6 @@ public final class R {
         public static final int textView3=0x7f0b0000;
         public static final int textViewName=0x7f0b0029;
         public static final int videoLayout=0x7f0b001f;
-        public static final int videoView=0x7f0b0020;
         public static final int webView=0x7f0b0003;
         public static final int webView2=0x7f0b0013;
         public static final int webView4=0x7f0b001d;

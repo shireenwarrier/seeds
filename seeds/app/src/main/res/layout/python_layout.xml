@@ -9,7 +9,8 @@
     <ExpandableListView
         android:id="@+id/exp_list"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent" >
+        android:layout_height="fill_parent"
+        android:background="#EF9598">
     </ExpandableListView>
 
 </RelativeLayout>

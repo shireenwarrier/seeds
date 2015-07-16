@@ -2,6 +2,7 @@ package com.example.navigationdrawerexample;
 
 import java.util.ArrayList;
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -80,6 +81,7 @@ public class ExpandListAdapter extends BaseExpandableListAdapter {
         }
         TextView tv = (TextView) convertView.findViewById(R.id.group_name);
         tv.setText(group.getName());
+        tv.setTextColor(Color.WHITE);
         return convertView;
     }
 
