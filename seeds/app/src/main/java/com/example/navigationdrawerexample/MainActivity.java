@@ -47,12 +47,13 @@ public class MainActivity extends Activity {
         mDrawerList = (ListView) findViewById(R.id.left_drawer);
         
         // list the drawer items
-        ObjectDrawerItem[] drawerItem = new ObjectDrawerItem[4];
+        ObjectDrawerItem[] drawerItem = new ObjectDrawerItem[5];
         
         drawerItem[0] = new ObjectDrawerItem(R.drawable.ic_action_home, "Home");
         drawerItem[1] = new ObjectDrawerItem(R.drawable.ic_action_play, "Play");
         drawerItem[2] = new ObjectDrawerItem(R.drawable.ic_action_learn, "Learn");
         drawerItem[3] = new ObjectDrawerItem(R.drawable.ic_action_connect, "Connect");
+        drawerItem[4] = new ObjectDrawerItem(R.layout.activity_facebook, "Facebook");
         
         // Pass the folderData to our ListView adapter
         DrawerItemCustomAdapter adapter = new DrawerItemCustomAdapter(this, R.layout.listview_item_row, drawerItem);
@@ -298,6 +299,11 @@ public class MainActivity extends Activity {
                 MESSAGE = "python";
                 break;
         }
+        startActivity(intent);
+    }
+
+    public void pressFacebookButton(View view){
+        Intent intent = new Intent(this,FacebookActivityFragment.class);
         startActivity(intent);
     }
 

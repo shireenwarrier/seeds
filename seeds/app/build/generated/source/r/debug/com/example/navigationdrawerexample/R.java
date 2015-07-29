@@ -9,151 +9,362 @@ package com.example.navigationdrawerexample;
 
 public final class R {
     public static final class array {
-        public static final int navigation_drawer_items_array=0x7f070000;
+        public static final int navigation_drawer_items_array=0x7f080000;
     }
     public static final class attr {
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>bottom</code></td><td>0</td><td></td></tr>
+<tr><td><code>inline</code></td><td>1</td><td></td></tr>
+<tr><td><code>top</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int auxiliary_view_position=0x7f010004;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int confirm_logout=0x7f010006;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int foreground_color=0x7f010000;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>center</code></td><td>0</td><td></td></tr>
+<tr><td><code>left</code></td><td>1</td><td></td></tr>
+<tr><td><code>right</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int horizontal_alignment=0x7f010005;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int is_cropped=0x7f01000a;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int login_text=0x7f010007;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int logout_text=0x7f010008;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int object_id=0x7f010001;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>unknown</code></td><td>0</td><td></td></tr>
+<tr><td><code>open_graph</code></td><td>1</td><td></td></tr>
+<tr><td><code>page</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int object_type=0x7f010002;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>small</code></td><td>-2</td><td></td></tr>
+<tr><td><code>normal</code></td><td>-3</td><td></td></tr>
+<tr><td><code>large</code></td><td>-4</td><td></td></tr>
+</table>
+         */
+        public static final int preset_size=0x7f010009;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>standard</code></td><td>0</td><td></td></tr>
+<tr><td><code>button</code></td><td>1</td><td></td></tr>
+<tr><td><code>box_count</code></td><td>2</td><td></td></tr>
+</table>
+         */
+        public static final int style=0x7f010003;
     }
     public static final class color {
-        public static final int background=0x7f080000;
+        public static final int background=0x7f090000;
+        public static final int com_facebook_blue=0x7f090001;
+        public static final int com_facebook_button_background_color=0x7f090002;
+        public static final int com_facebook_button_background_color_disabled=0x7f090003;
+        public static final int com_facebook_button_background_color_pressed=0x7f090004;
+        public static final int com_facebook_button_like_background_color_selected=0x7f090005;
+        public static final int com_facebook_button_login_silver_background_color=0x7f090006;
+        public static final int com_facebook_button_login_silver_background_color_pressed=0x7f090007;
+        public static final int com_facebook_button_send_background_color=0x7f090008;
+        public static final int com_facebook_button_send_background_color_pressed=0x7f090009;
+        public static final int com_facebook_likeboxcountview_border_color=0x7f09000a;
+        public static final int com_facebook_likeboxcountview_text_color=0x7f09000b;
+        public static final int com_facebook_likeview_text_color=0x7f09000c;
+        public static final int com_facebook_share_button_text_color=0x7f09000d;
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f060000;
+        public static final int activity_vertical_margin=0x7f060001;
+        public static final int com_facebook_likeboxcountview_border_radius=0x7f060002;
+        public static final int com_facebook_likeboxcountview_border_width=0x7f060003;
+        public static final int com_facebook_likeboxcountview_caret_height=0x7f060004;
+        public static final int com_facebook_likeboxcountview_caret_width=0x7f060005;
+        public static final int com_facebook_likeboxcountview_text_padding=0x7f060006;
+        public static final int com_facebook_likeboxcountview_text_size=0x7f060007;
+        public static final int com_facebook_likeview_edge_padding=0x7f060008;
+        public static final int com_facebook_likeview_internal_padding=0x7f060009;
+        public static final int com_facebook_likeview_text_size=0x7f06000a;
+        public static final int com_facebook_profilepictureview_preset_size_large=0x7f06000b;
+        public static final int com_facebook_profilepictureview_preset_size_normal=0x7f06000c;
+        public static final int com_facebook_profilepictureview_preset_size_small=0x7f06000d;
+        public static final int com_facebook_share_button_compound_drawable_padding=0x7f06000e;
+        public static final int com_facebook_share_button_padding_bottom=0x7f06000f;
+        public static final int com_facebook_share_button_padding_left=0x7f060010;
+        public static final int com_facebook_share_button_padding_right=0x7f060011;
+        public static final int com_facebook_share_button_padding_top=0x7f060012;
+        public static final int com_facebook_share_button_text_size=0x7f060013;
+        public static final int com_facebook_tooltip_horizontal_padding=0x7f060014;
     }
     public static final class drawable {
         public static final int addevent2=0x7f020000;
         public static final int caltext2=0x7f020001;
         public static final int charsjava=0x7f020002;
         public static final int charspython=0x7f020003;
-        public static final int comingsoon=0x7f020004;
-        public static final int connectcal5=0x7f020005;
-        public static final int connectlocator3=0x7f020006;
-        public static final int connectmentor2=0x7f020007;
-        public static final int helloworldjava=0x7f020008;
-        public static final int helloworldpython=0x7f020009;
-        public static final int ic_action_connect=0x7f02000a;
-        public static final int ic_action_copy=0x7f02000b;
-        public static final int ic_action_home=0x7f02000c;
-        public static final int ic_action_learn=0x7f02000d;
-        public static final int ic_action_play=0x7f02000e;
-        public static final int ic_action_refresh=0x7f02000f;
-        public static final int ic_action_share=0x7f020010;
-        public static final int ic_drawer=0x7f020011;
-        public static final int ic_launcher=0x7f020012;
-        public static final int intsanddoublesjava=0x7f020013;
-        public static final int intsanddoublespython=0x7f020014;
-        public static final int java4=0x7f020015;
-        public static final int mapstext2=0x7f020016;
-        public static final int mathoperationsjava1=0x7f020017;
-        public static final int mathoperationsjava2=0x7f020018;
-        public static final int mathoperationspython1=0x7f020019;
-        public static final int mathoperationspython2=0x7f02001a;
-        public static final int mentortext1=0x7f02001b;
-        public static final int newconnectbutton=0x7f02001c;
-        public static final int newlearnbutton=0x7f02001d;
-        public static final int newplaybutton=0x7f02001e;
-        public static final int playbo1=0x7f02001f;
-        public static final int playbo2=0x7f020020;
-        public static final int playbo4=0x7f020021;
-        public static final int playbo5=0x7f020022;
-        public static final int playbo6=0x7f020023;
-        public static final int playbo7=0x7f020024;
-        public static final int python2=0x7f020025;
-        public static final int round_button=0x7f020026;
-        public static final int round_button2=0x7f020027;
-        public static final int round_button3=0x7f020028;
-        public static final int sample_0=0x7f020029;
-        public static final int sample_1=0x7f02002a;
-        public static final int sample_2=0x7f02002b;
-        public static final int sample_3=0x7f02002c;
-        public static final int sample_4=0x7f02002d;
-        public static final int sample_5=0x7f02002e;
-        public static final int sample_6=0x7f02002f;
-        public static final int sample_7=0x7f020030;
-        public static final int splashnew3=0x7f020031;
-        public static final int stringsjava5=0x7f020032;
-        public static final int stringspython5=0x7f020033;
-        public static final int variables=0x7f020034;
-        public static final int vidview4=0x7f020035;
+        public static final int com_facebook_button_background=0x7f020004;
+        public static final int com_facebook_button_icon=0x7f020005;
+        public static final int com_facebook_button_like_background=0x7f020006;
+        public static final int com_facebook_button_like_icon_selected=0x7f020007;
+        public static final int com_facebook_button_login_silver_background=0x7f020008;
+        public static final int com_facebook_button_send_background=0x7f020009;
+        public static final int com_facebook_button_send_icon=0x7f02000a;
+        public static final int com_facebook_close=0x7f02000b;
+        public static final int com_facebook_profile_picture_blank_portrait=0x7f02000c;
+        public static final int com_facebook_profile_picture_blank_square=0x7f02000d;
+        public static final int com_facebook_tooltip_black_background=0x7f02000e;
+        public static final int com_facebook_tooltip_black_bottomnub=0x7f02000f;
+        public static final int com_facebook_tooltip_black_topnub=0x7f020010;
+        public static final int com_facebook_tooltip_black_xout=0x7f020011;
+        public static final int com_facebook_tooltip_blue_background=0x7f020012;
+        public static final int com_facebook_tooltip_blue_bottomnub=0x7f020013;
+        public static final int com_facebook_tooltip_blue_topnub=0x7f020014;
+        public static final int com_facebook_tooltip_blue_xout=0x7f020015;
+        public static final int comingsoon=0x7f020016;
+        public static final int connectcal5=0x7f020017;
+        public static final int connectlocator3=0x7f020018;
+        public static final int connectmentor2=0x7f020019;
+        public static final int helloworldjava=0x7f02001a;
+        public static final int helloworldpython=0x7f02001b;
+        public static final int ic_action_connect=0x7f02001c;
+        public static final int ic_action_copy=0x7f02001d;
+        public static final int ic_action_home=0x7f02001e;
+        public static final int ic_action_learn=0x7f02001f;
+        public static final int ic_action_play=0x7f020020;
+        public static final int ic_action_refresh=0x7f020021;
+        public static final int ic_action_share=0x7f020022;
+        public static final int ic_drawer=0x7f020023;
+        public static final int ic_launcher=0x7f020024;
+        public static final int intsanddoublesjava=0x7f020025;
+        public static final int intsanddoublespython=0x7f020026;
+        public static final int java4=0x7f020027;
+        public static final int mapstext2=0x7f020028;
+        public static final int mathoperationsjava1=0x7f020029;
+        public static final int mathoperationsjava2=0x7f02002a;
+        public static final int mathoperationspython1=0x7f02002b;
+        public static final int mathoperationspython2=0x7f02002c;
+        public static final int mentortext1=0x7f02002d;
+        public static final int messenger_bubble_large_blue=0x7f02002e;
+        public static final int messenger_bubble_large_white=0x7f02002f;
+        public static final int messenger_bubble_small_blue=0x7f020030;
+        public static final int messenger_bubble_small_white=0x7f020031;
+        public static final int messenger_button_blue_bg_round=0x7f020032;
+        public static final int messenger_button_blue_bg_selector=0x7f020033;
+        public static final int messenger_button_send_round_shadow=0x7f020034;
+        public static final int messenger_button_white_bg_round=0x7f020035;
+        public static final int messenger_button_white_bg_selector=0x7f020036;
+        public static final int newconnectbutton=0x7f020037;
+        public static final int newlearnbutton=0x7f020038;
+        public static final int newplaybutton=0x7f020039;
+        public static final int playbo1=0x7f02003a;
+        public static final int playbo2=0x7f02003b;
+        public static final int playbo4=0x7f02003c;
+        public static final int playbo5=0x7f02003d;
+        public static final int playbo6=0x7f02003e;
+        public static final int playbo7=0x7f02003f;
+        public static final int python2=0x7f020040;
+        public static final int round_button=0x7f020041;
+        public static final int round_button2=0x7f020042;
+        public static final int round_button3=0x7f020043;
+        public static final int sample_0=0x7f020044;
+        public static final int sample_1=0x7f020045;
+        public static final int sample_2=0x7f020046;
+        public static final int sample_3=0x7f020047;
+        public static final int sample_4=0x7f020048;
+        public static final int sample_5=0x7f020049;
+        public static final int sample_6=0x7f02004a;
+        public static final int sample_7=0x7f02004b;
+        public static final int splashnew3=0x7f02004c;
+        public static final int stringsjava5=0x7f02004d;
+        public static final int stringspython5=0x7f02004e;
+        public static final int variables=0x7f02004f;
+        public static final int vidview4=0x7f020050;
     }
     public static final class id {
-        public static final int ScrollView01=0x7f0b0014;
-        public static final int action_settings=0x7f0b002b;
-        public static final int buttonLayout=0x7f0b0020;
-        public static final int buttonVideo=0x7f0b0024;
-        public static final int calendar=0x7f0b0009;
-        public static final int connect=0x7f0b0022;
-        public static final int content_frame=0x7f0b0010;
-        public static final int drawer_layout=0x7f0b000f;
-        public static final int exp_list=0x7f0b0027;
-        public static final int flag=0x7f0b001e;
-        public static final int group_name=0x7f0b0026;
-        public static final int imageButton=0x7f0b0015;
-        public static final int imageButton100=0x7f0b0004;
-        public static final int imageButton2=0x7f0b0016;
-        public static final int imageButton3=0x7f0b001b;
-        public static final int imageButton4=0x7f0b0018;
-        public static final int imageButton5=0x7f0b0019;
-        public static final int imageButton6=0x7f0b001c;
-        public static final int imageButton7=0x7f0b0025;
-        public static final int imageView=0x7f0b000a;
-        public static final int imageView1=0x7f0b0008;
-        public static final int imageView2=0x7f0b0006;
-        public static final int imageView3=0x7f0b000e;
-        public static final int imageViewIcon=0x7f0b0028;
-        public static final int javaButton=0x7f0b000c;
-        public static final int learn=0x7f0b0023;
-        public static final int left_drawer=0x7f0b0011;
-        public static final int linearLayout=0x7f0b000b;
-        public static final int linearLayout2=0x7f0b0017;
-        public static final int linearLayout3=0x7f0b001a;
-        public static final int locator=0x7f0b0007;
-        public static final int mentoring=0x7f0b0005;
-        public static final int play=0x7f0b0021;
-        public static final int progressBar1=0x7f0b002a;
-        public static final int pythonButton=0x7f0b000d;
-        public static final int textView=0x7f0b0002;
-        public static final int textView2=0x7f0b0012;
-        public static final int textView3=0x7f0b0000;
-        public static final int textViewName=0x7f0b0029;
-        public static final int videoLayout=0x7f0b001f;
-        public static final int webView=0x7f0b0003;
-        public static final int webView2=0x7f0b0013;
-        public static final int webView4=0x7f0b001d;
-        public static final int webView5=0x7f0b0001;
+        public static final int ScrollView01=0x7f0b0027;
+        public static final int action_settings=0x7f0b0046;
+        public static final int bottom=0x7f0b0006;
+        public static final int box_count=0x7f0b0003;
+        public static final int button=0x7f0b0004;
+        public static final int buttonLayout=0x7f0b003b;
+        public static final int buttonVideo=0x7f0b003f;
+        public static final int calendar=0x7f0b0019;
+        public static final int center=0x7f0b0009;
+        public static final int com_facebook_body_frame=0x7f0b0034;
+        public static final int com_facebook_button_xout=0x7f0b0036;
+        public static final int com_facebook_fragment_container=0x7f0b0032;
+        public static final int com_facebook_login_activity_progress_bar=0x7f0b0033;
+        public static final int com_facebook_tooltip_bubble_view_bottom_pointer=0x7f0b0038;
+        public static final int com_facebook_tooltip_bubble_view_text_body=0x7f0b0037;
+        public static final int com_facebook_tooltip_bubble_view_top_pointer=0x7f0b0035;
+        public static final int connect=0x7f0b003d;
+        public static final int content_frame=0x7f0b0023;
+        public static final int drawer_layout=0x7f0b0022;
+        public static final int exp_list=0x7f0b001d;
+        public static final int flag=0x7f0b0031;
+        public static final int forum=0x7f0b001a;
+        public static final int fragment=0x7f0b001c;
+        public static final int group_name=0x7f0b0041;
+        public static final int imageButton=0x7f0b0028;
+        public static final int imageButton100=0x7f0b0014;
+        public static final int imageButton2=0x7f0b0029;
+        public static final int imageButton3=0x7f0b002e;
+        public static final int imageButton4=0x7f0b002b;
+        public static final int imageButton5=0x7f0b002c;
+        public static final int imageButton6=0x7f0b002f;
+        public static final int imageButton7=0x7f0b0040;
+        public static final int imageView=0x7f0b001b;
+        public static final int imageView1=0x7f0b0018;
+        public static final int imageView2=0x7f0b0016;
+        public static final int imageView3=0x7f0b0021;
+        public static final int imageViewIcon=0x7f0b0042;
+        public static final int inline=0x7f0b0007;
+        public static final int javaButton=0x7f0b001f;
+        public static final int large=0x7f0b000c;
+        public static final int learn=0x7f0b003e;
+        public static final int left=0x7f0b000a;
+        public static final int left_drawer=0x7f0b0024;
+        public static final int linearLayout=0x7f0b001e;
+        public static final int linearLayout2=0x7f0b002a;
+        public static final int linearLayout3=0x7f0b002d;
+        public static final int locator=0x7f0b0017;
+        public static final int login_button=0x7f0b0039;
+        public static final int mentoring=0x7f0b0015;
+        public static final int messenger_send_button=0x7f0b0044;
+        public static final int normal=0x7f0b000d;
+        public static final int open_graph=0x7f0b0000;
+        public static final int page=0x7f0b0001;
+        public static final int play=0x7f0b003c;
+        public static final int progressBar1=0x7f0b0045;
+        public static final int pythonButton=0x7f0b0020;
+        public static final int right=0x7f0b000b;
+        public static final int small=0x7f0b000e;
+        public static final int standard=0x7f0b0005;
+        public static final int textView=0x7f0b0012;
+        public static final int textView2=0x7f0b0025;
+        public static final int textView3=0x7f0b000f;
+        public static final int textViewName=0x7f0b0043;
+        public static final int top=0x7f0b0008;
+        public static final int unknown=0x7f0b0002;
+        public static final int videoLayout=0x7f0b003a;
+        public static final int webView=0x7f0b0013;
+        public static final int webView2=0x7f0b0026;
+        public static final int webView3=0x7f0b0011;
+        public static final int webView4=0x7f0b0030;
+        public static final int webView5=0x7f0b0010;
     }
     public static final class layout {
         public static final int activity_add_event=0x7f040000;
-        public static final int activity_calendar=0x7f040001;
-        public static final int activity_connect=0x7f040002;
-        public static final int activity_learn=0x7f040003;
-        public static final int activity_locator=0x7f040004;
-        public static final int activity_main=0x7f040005;
-        public static final int activity_mentor=0x7f040006;
-        public static final int activity_play=0x7f040007;
-        public static final int activity_video=0x7f040008;
-        public static final int child_item=0x7f040009;
-        public static final int fragment_connect=0x7f04000a;
-        public static final int fragment_home=0x7f04000b;
-        public static final int fragment_learn=0x7f04000c;
-        public static final int fragment_play=0x7f04000d;
-        public static final int group_item=0x7f04000e;
-        public static final int java_layout=0x7f04000f;
-        public static final int listview_item_row=0x7f040010;
-        public static final int python_layout=0x7f040011;
-        public static final int splashscreen=0x7f040012;
+        public static final int activity_add_topic=0x7f040001;
+        public static final int activity_calendar=0x7f040002;
+        public static final int activity_connect=0x7f040003;
+        public static final int activity_facebook=0x7f040004;
+        public static final int activity_forum=0x7f040005;
+        public static final int activity_learn=0x7f040006;
+        public static final int activity_locator=0x7f040007;
+        public static final int activity_main=0x7f040008;
+        public static final int activity_mentor=0x7f040009;
+        public static final int activity_play=0x7f04000a;
+        public static final int activity_video=0x7f04000b;
+        public static final int child_item=0x7f04000c;
+        public static final int com_facebook_activity_layout=0x7f04000d;
+        public static final int com_facebook_login_fragment=0x7f04000e;
+        public static final int com_facebook_tooltip_bubble=0x7f04000f;
+        public static final int fragment_connect=0x7f040010;
+        public static final int fragment_facebook=0x7f040011;
+        public static final int fragment_home=0x7f040012;
+        public static final int fragment_learn=0x7f040013;
+        public static final int fragment_play=0x7f040014;
+        public static final int group_item=0x7f040015;
+        public static final int java_layout=0x7f040016;
+        public static final int listview_item_row=0x7f040017;
+        public static final int messenger_button_send_blue_large=0x7f040018;
+        public static final int messenger_button_send_blue_round=0x7f040019;
+        public static final int messenger_button_send_blue_small=0x7f04001a;
+        public static final int messenger_button_send_white_large=0x7f04001b;
+        public static final int messenger_button_send_white_round=0x7f04001c;
+        public static final int messenger_button_send_white_small=0x7f04001d;
+        public static final int python_layout=0x7f04001e;
+        public static final int splashscreen=0x7f04001f;
     }
     public static final class menu {
         public static final int main=0x7f0a0000;
         public static final int menu_add_event=0x7f0a0001;
-        public static final int menu_calendar=0x7f0a0002;
-        public static final int menu_connect=0x7f0a0003;
-        public static final int menu_continued_connect=0x7f0a0004;
-        public static final int menu_home=0x7f0a0005;
-        public static final int menu_learn=0x7f0a0006;
-        public static final int menu_locator=0x7f0a0007;
-        public static final int menu_mentor=0x7f0a0008;
-        public static final int menu_video=0x7f0a0009;
+        public static final int menu_add_topic=0x7f0a0002;
+        public static final int menu_calendar=0x7f0a0003;
+        public static final int menu_connect=0x7f0a0004;
+        public static final int menu_continued_connect=0x7f0a0005;
+        public static final int menu_facebook=0x7f0a0006;
+        public static final int menu_forum=0x7f0a0007;
+        public static final int menu_home=0x7f0a0008;
+        public static final int menu_learn=0x7f0a0009;
+        public static final int menu_locator=0x7f0a000a;
+        public static final int menu_mentor=0x7f0a000b;
+        public static final int menu_video=0x7f0a000c;
     }
     public static final class mipmap {
         public static final int avatar=0x7f030000;
@@ -163,31 +374,306 @@ public final class R {
         public static final int splash3=0x7f030004;
     }
     public static final class string {
-        public static final int action_settings=0x7f090000;
-        public static final int app_name=0x7f090001;
-        public static final int drawer_close=0x7f090002;
-        public static final int drawer_open=0x7f090003;
-        public static final int hello_blank_fragment=0x7f090004;
-        public static final int hello_world=0x7f090005;
-        public static final int title_activity_add_event=0x7f090006;
-        public static final int title_activity_calendar=0x7f090007;
-        public static final int title_activity_connect=0x7f090008;
-        public static final int title_activity_continued_connect=0x7f090009;
-        public static final int title_activity_home=0x7f09000a;
-        public static final int title_activity_learn=0x7f09000b;
-        public static final int title_activity_locator=0x7f09000c;
-        public static final int title_activity_mentor=0x7f09000d;
-        public static final int title_activity_string_video=0x7f09000e;
-        public static final int title_activity_video=0x7f09000f;
+        public static final int action_settings=0x7f05000b;
+        public static final int app_name=0x7f05000c;
+        public static final int com_facebook_image_download_unknown_error=0x7f050001;
+        public static final int com_facebook_internet_permission_error_message=0x7f050002;
+        public static final int com_facebook_internet_permission_error_title=0x7f050003;
+        public static final int com_facebook_like_button_liked=0x7f05000d;
+        public static final int com_facebook_like_button_not_liked=0x7f05000e;
+        public static final int com_facebook_loading=0x7f050004;
+        public static final int com_facebook_loginview_cancel_action=0x7f050005;
+        public static final int com_facebook_loginview_log_in_button=0x7f050006;
+        public static final int com_facebook_loginview_log_in_button_long=0x7f05000f;
+        public static final int com_facebook_loginview_log_out_action=0x7f050007;
+        public static final int com_facebook_loginview_log_out_button=0x7f050008;
+        public static final int com_facebook_loginview_logged_in_as=0x7f050009;
+        public static final int com_facebook_loginview_logged_in_using_facebook=0x7f05000a;
+        public static final int com_facebook_send_button_text=0x7f050010;
+        public static final int com_facebook_share_button_text=0x7f050011;
+        public static final int com_facebook_tooltip_default=0x7f050012;
+        public static final int drawer_close=0x7f050013;
+        public static final int drawer_open=0x7f050014;
+        public static final int facebook_app_id=0x7f050015;
+        public static final int hello_blank_fragment=0x7f050016;
+        public static final int hello_world=0x7f050017;
+        public static final int messenger_send_button_text=0x7f050000;
+        public static final int title_activity_add_event=0x7f050018;
+        public static final int title_activity_add_topic=0x7f050019;
+        public static final int title_activity_calendar=0x7f05001a;
+        public static final int title_activity_connect=0x7f05001b;
+        public static final int title_activity_continued_connect=0x7f05001c;
+        public static final int title_activity_facebook=0x7f05001d;
+        public static final int title_activity_forum=0x7f05001e;
+        public static final int title_activity_home=0x7f05001f;
+        public static final int title_activity_learn=0x7f050020;
+        public static final int title_activity_locator=0x7f050021;
+        public static final int title_activity_mentor=0x7f050022;
+        public static final int title_activity_string_video=0x7f050023;
+        public static final int title_activity_video=0x7f050024;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
-        public static final int AppTheme=0x7f060001;
-        public static final int aBStyle=0x7f060002;
-        public static final int labelStyle=0x7f060003;
-        public static final int titleStyle=0x7f060004;
+        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppTheme=0x7f070001;
+        public static final int MessengerButton=0x7f070002;
+        public static final int MessengerButton_Blue=0x7f070003;
+        public static final int MessengerButton_Blue_Large=0x7f070004;
+        public static final int MessengerButton_Blue_Small=0x7f070005;
+        public static final int MessengerButton_White=0x7f070006;
+        public static final int MessengerButton_White_Large=0x7f070007;
+        public static final int MessengerButton_White_Small=0x7f070008;
+        public static final int MessengerButtonText=0x7f070009;
+        public static final int MessengerButtonText_Blue=0x7f07000a;
+        public static final int MessengerButtonText_Blue_Large=0x7f07000b;
+        public static final int MessengerButtonText_Blue_Small=0x7f07000c;
+        public static final int MessengerButtonText_White=0x7f07000d;
+        public static final int MessengerButtonText_White_Large=0x7f07000e;
+        public static final int MessengerButtonText_White_Small=0x7f07000f;
+        public static final int aBStyle=0x7f070010;
+        public static final int com_facebook_button=0x7f070011;
+        public static final int com_facebook_button_like=0x7f070012;
+        public static final int com_facebook_button_send=0x7f070013;
+        public static final int com_facebook_button_share=0x7f070014;
+        public static final int com_facebook_loginview_default_style=0x7f070015;
+        public static final int com_facebook_loginview_silver_style=0x7f070016;
+        public static final int labelStyle=0x7f070017;
+        public static final int titleStyle=0x7f070018;
+        public static final int tooltip_bubble_text=0x7f070019;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a com_facebook_like_view.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #com_facebook_like_view_auxiliary_view_position com.example.navigationdrawerexample:auxiliary_view_position}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_like_view_foreground_color com.example.navigationdrawerexample:foreground_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_like_view_horizontal_alignment com.example.navigationdrawerexample:horizontal_alignment}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_like_view_object_id com.example.navigationdrawerexample:object_id}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_like_view_object_type com.example.navigationdrawerexample:object_type}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_like_view_style com.example.navigationdrawerexample:style}</code></td><td></td></tr>
+           </table>
+           @see #com_facebook_like_view_auxiliary_view_position
+           @see #com_facebook_like_view_foreground_color
+           @see #com_facebook_like_view_horizontal_alignment
+           @see #com_facebook_like_view_object_id
+           @see #com_facebook_like_view_object_type
+           @see #com_facebook_like_view_style
+         */
+        public static final int[] com_facebook_like_view = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.navigationdrawerexample.R.attr#auxiliary_view_position}
+          attribute's value can be found in the {@link #com_facebook_like_view} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>bottom</code></td><td>0</td><td></td></tr>
+<tr><td><code>inline</code></td><td>1</td><td></td></tr>
+<tr><td><code>top</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.example.navigationdrawerexample:auxiliary_view_position
+        */
+        public static final int com_facebook_like_view_auxiliary_view_position = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.example.navigationdrawerexample.R.attr#foreground_color}
+          attribute's value can be found in the {@link #com_facebook_like_view} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.navigationdrawerexample:foreground_color
+        */
+        public static final int com_facebook_like_view_foreground_color = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.navigationdrawerexample.R.attr#horizontal_alignment}
+          attribute's value can be found in the {@link #com_facebook_like_view} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>center</code></td><td>0</td><td></td></tr>
+<tr><td><code>left</code></td><td>1</td><td></td></tr>
+<tr><td><code>right</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.example.navigationdrawerexample:horizontal_alignment
+        */
+        public static final int com_facebook_like_view_horizontal_alignment = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.example.navigationdrawerexample.R.attr#object_id}
+          attribute's value can be found in the {@link #com_facebook_like_view} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.navigationdrawerexample:object_id
+        */
+        public static final int com_facebook_like_view_object_id = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.navigationdrawerexample.R.attr#object_type}
+          attribute's value can be found in the {@link #com_facebook_like_view} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>unknown</code></td><td>0</td><td></td></tr>
+<tr><td><code>open_graph</code></td><td>1</td><td></td></tr>
+<tr><td><code>page</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.example.navigationdrawerexample:object_type
+        */
+        public static final int com_facebook_like_view_object_type = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.example.navigationdrawerexample.R.attr#style}
+          attribute's value can be found in the {@link #com_facebook_like_view} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>standard</code></td><td>0</td><td></td></tr>
+<tr><td><code>button</code></td><td>1</td><td></td></tr>
+<tr><td><code>box_count</code></td><td>2</td><td></td></tr>
+</table>
+          @attr name com.example.navigationdrawerexample:style
+        */
+        public static final int com_facebook_like_view_style = 3;
+        /** Attributes that can be used with a com_facebook_login_view.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #com_facebook_login_view_confirm_logout com.example.navigationdrawerexample:confirm_logout}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_login_view_login_text com.example.navigationdrawerexample:login_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_login_view_logout_text com.example.navigationdrawerexample:logout_text}</code></td><td></td></tr>
+           </table>
+           @see #com_facebook_login_view_confirm_logout
+           @see #com_facebook_login_view_login_text
+           @see #com_facebook_login_view_logout_text
+         */
+        public static final int[] com_facebook_login_view = {
+            0x7f010006, 0x7f010007, 0x7f010008
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.navigationdrawerexample.R.attr#confirm_logout}
+          attribute's value can be found in the {@link #com_facebook_login_view} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.navigationdrawerexample:confirm_logout
+        */
+        public static final int com_facebook_login_view_confirm_logout = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.example.navigationdrawerexample.R.attr#login_text}
+          attribute's value can be found in the {@link #com_facebook_login_view} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.navigationdrawerexample:login_text
+        */
+        public static final int com_facebook_login_view_login_text = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.navigationdrawerexample.R.attr#logout_text}
+          attribute's value can be found in the {@link #com_facebook_login_view} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.navigationdrawerexample:logout_text
+        */
+        public static final int com_facebook_login_view_logout_text = 2;
+        /** Attributes that can be used with a com_facebook_profile_picture_view.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #com_facebook_profile_picture_view_is_cropped com.example.navigationdrawerexample:is_cropped}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_profile_picture_view_preset_size com.example.navigationdrawerexample:preset_size}</code></td><td></td></tr>
+           </table>
+           @see #com_facebook_profile_picture_view_is_cropped
+           @see #com_facebook_profile_picture_view_preset_size
+         */
+        public static final int[] com_facebook_profile_picture_view = {
+            0x7f010009, 0x7f01000a
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.navigationdrawerexample.R.attr#is_cropped}
+          attribute's value can be found in the {@link #com_facebook_profile_picture_view} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.example.navigationdrawerexample:is_cropped
+        */
+        public static final int com_facebook_profile_picture_view_is_cropped = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.example.navigationdrawerexample.R.attr#preset_size}
+          attribute's value can be found in the {@link #com_facebook_profile_picture_view} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>small</code></td><td>-2</td><td></td></tr>
+<tr><td><code>normal</code></td><td>-3</td><td></td></tr>
+<tr><td><code>large</code></td><td>-4</td><td></td></tr>
+</table>
+          @attr name com.example.navigationdrawerexample:preset_size
+        */
+        public static final int com_facebook_profile_picture_view_preset_size = 0;
+    };
 }

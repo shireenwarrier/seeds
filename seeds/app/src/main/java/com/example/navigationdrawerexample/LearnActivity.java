@@ -25,7 +25,8 @@ public class LearnActivity extends Activity {
         Intent intent = getIntent();
         getActionBar().setTitle("Learn");
         super.onCreate(savedInstanceState);
-        if(HomeActivity.MESSAGE.equals("java")||(MainActivity.MESSAGE.equals("java"))){
+        if(HomeActivity.MESSAGE.equals("j" +
+                "ava")||(MainActivity.MESSAGE.equals("java"))){
             setContentView(R.layout.java_layout);
             ExpandList = (ExpandableListView) findViewById(R.id.exp_list);
             ExpListItems = setJavaGroups();

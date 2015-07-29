@@ -27,9 +27,11 @@ public class CalendarActivity extends Activity {
         if(MainActivity.MESSAGE.equals("mentoring")){setContentView(R.layout.activity_mentor);}
         else if(MainActivity.MESSAGE.equals("calendar")){setContentView(R.layout.activity_calendar);}
         else if(MainActivity.MESSAGE.equals("locator")){setContentView(R.layout.activity_locator);}
+        else if(MainActivity.MESSAGE.equals("forum")){setContentView(R.layout.activity_forum);}
         else if(HomeActivity.MESSAGE.equals("mentoring")){setContentView(R.layout.activity_mentor);}
         else if(HomeActivity.MESSAGE.equals("calendar")){setContentView(R.layout.activity_calendar);}
         else if(HomeActivity.MESSAGE.equals("locator")){setContentView(R.layout.activity_locator);}
+        else if(HomeActivity.MESSAGE.equals("forum")){setContentView(R.layout.activity_forum);}
         myWebView = (WebView)(findViewById(R.id.webView));
         WebSettings ws = myWebView.getSettings();
         ws.setJavaScriptEnabled(true);

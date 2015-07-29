@@ -2,25 +2,39 @@
 <items version="2" >
 
     <item
-        jar="/Users/loaner/Desktop/seeds2-5/seeds/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jar="C:\Users\Payal\Desktop\seeds2-5\seeds\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/Users/loaner/Desktop/seeds2-5/seeds/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-97683403ff171c2c43bd3c771d0d2ce3062461ce.jar" />
+        <dex dex="C:\Users\Payal\Desktop\seeds2-5\seeds\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-5c7e852a6b8e26b95474998a5ccc8d9a3991f5bf.jar" />
     </item>
     <item
-        jar="/Users/loaner/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/Users/loaner/Desktop/seeds2-5/seeds/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-ad9b5eb58756a843fa6114c7c2500fd0d59ad21a.jar" />
-    </item>
-    <item
-        jar="/Users/loaner/Desktop/seeds2-5/seeds/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jar="C:\Users\Payal\Desktop\seeds2-5\seeds\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/Users/loaner/Desktop/seeds2-5/seeds/app/build/intermediates/pre-dexed/debug/classes-46ef9ba0058494e1b00539ae215d086c601676d0.jar" />
+        <dex dex="C:\Users\Payal\Desktop\seeds2-5\seeds\app\build\intermediates\pre-dexed\debug\classes-70f404e3d341122b855b26c5266810c611637660.jar" />
+    </item>
+    <item
+        jar="C:\Users\Payal\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-android\1.1.4\129874135e6081269ace2312092031558865de12\bolts-android-1.1.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="C:\Users\Payal\Desktop\seeds2-5\seeds\app\build\intermediates\pre-dexed\debug\bolts-android-1.1.4-e788a66bf1a81851f93e4d813a080a0459b0acd6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Payal\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Payal\Desktop\seeds2-5\seeds\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-262062b37e4eb1089a53f0043aa3e52dd062cff8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Payal\Desktop\seeds2-5\seeds\app\build\intermediates\exploded-aar\com.facebook.android\facebook-android-sdk\4.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex dex="C:\Users\Payal\Desktop\seeds2-5\seeds\app\build\intermediates\pre-dexed\debug\classes-4555da0e8ec5a58fdf23ecec2c388074fbb4490a.jar" />
     </item>
 
 </items>

@@ -56,6 +56,9 @@ public class HomeActivity extends Activity {
             case R.id.calendar:
                 MESSAGE = "calendar";
                 break;
+            case R.id.forum:
+                MESSAGE = "forum";
+                break;
         }
         startActivity(mentoring);
     }
@@ -73,6 +76,9 @@ public class HomeActivity extends Activity {
             case R.id.calendar:
                 MESSAGE = "calendar";
                 break;
+            case R.id.forum:
+                MESSAGE = "forum";
+                break;
         }
         startActivity(calendar);
     }
@@ -89,6 +95,9 @@ public class HomeActivity extends Activity {
             case R.id.calendar:
                 MESSAGE = "calendar";
                 break;
+            case R.id.forum:
+                MESSAGE = "forum";
+                break;
         }
         startActivity(locator);
     }
@@ -101,6 +110,26 @@ public class HomeActivity extends Activity {
                 break;
             case R.id.pythonButton:
                 MESSAGE = "python";
+                break;
+        }
+        startActivity(intent);
+    }
+
+    public void pressForumButton(View view){
+        Intent intent = new Intent(this, ForumActivity.class);
+        intent.putExtra("url","https://docs.google.com/forms/d/1VmNH-HGRiBTx9OcF1Er40hSlONoTV4kPnW3-3mJN4Mo/viewform?usp=send_form");
+        switch (view.getId()) {
+            case R.id.locator:
+                MESSAGE = "locator";
+                break;
+            case R.id.mentoring:
+                MESSAGE = "mentoring";
+                break;
+            case R.id.calendar:
+                MESSAGE = "calendar";
+                break;
+            case R.id.forum:
+                MESSAGE = "forum";
                 break;
         }
         startActivity(intent);

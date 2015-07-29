@@ -83,6 +83,14 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+    <ImageButton
+        android:text="Forum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFFFF"
+        android:id="@+id/forum"
+        android:onClick="pressForumButton"/>
 
     <ImageView
         android:layout_width="wrap_content"
@@ -98,4 +106,4 @@
 
 </RelativeLayout>
 
-<!-- From: file:/Users/loaner/Desktop/seeds2-5/seeds/app/src/main/res/layout/activity_connect.xml -->
+<!-- From: file:/C:/Users/Payal/Desktop/seeds2-5/seeds/app/src/main/res/layout/activity_connect.xml -->
