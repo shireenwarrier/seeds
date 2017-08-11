@@ -1,1 +1,2 @@
 # seeds
+An Android mobile application targeted at young girls in elementary and middle school to encourage their interest in computer science early on in their lives. Game developed separately with the app to go along with our lessons in Java and Python. An important aspect of Seeds is the “Connect” feature, which is meant to help girls build a local support system for themselves with not only other girls interested in technology, but also older mentors who can guide them through projects and lessons.
